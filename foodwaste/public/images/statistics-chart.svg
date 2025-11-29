@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="190" fill="rgba(102, 126, 234, 0.1)" stroke="#667eea" stroke-width="2"/>
+  
+  <!-- Waste percentage chart -->
+  <g opacity="0.3">
+    <rect x="60" y="100" width="40" height="180" fill="#ff6b6b" rx="5"/>
+    <rect x="120" y="80" width="40" height="200" fill="#ff922b" rx="5"/>
+    <rect x="180" y="120" width="40" height="160" fill="#ffd43b" rx="5"/>
+    <rect x="240" y="140" width="40" height="140" fill="#51cf66" rx="5"/>
+    <rect x="300" y="160" width="40" height="120" fill="#339af0" rx="5"/>
+  </g>
+  
+  <!-- Central icon -->
+  <circle cx="200" cy="200" r="100" fill="rgba(102, 126, 234, 0.15)"/>
+  
+  <!-- Large waste/trash icon -->
+  <text x="200" y="230" font-size="80" text-anchor="middle" opacity="0.6">🗑️</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="80" r="15" fill="#ff6b6b" opacity="0.3"/>
+  <circle cx="320" cy="320" r="20" fill="#667eea" opacity="0.3"/>
+  <circle cx="100" cy="300" r="12" fill="#51cf66" opacity="0.3"/>
+</svg>

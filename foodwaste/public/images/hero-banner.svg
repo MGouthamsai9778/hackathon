@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#bgGradient)"/>
+  
+  <!-- Left side - Text area -->
+  <text x="50" y="80" font-size="48" font-weight="bold" fill="white" font-family="Arial">Stop Food</text>
+  <text x="50" y="140" font-size="48" font-weight="bold" fill="white" font-family="Arial">Waste Today</text>
+  
+  <text x="50" y="200" font-size="18" fill="rgba(255,255,255,0.9)" font-family="Arial">Join millions reducing food waste</text>
+  <text x="50" y="230" font-size="18" fill="rgba(255,255,255,0.9)" font-family="Arial">and building a sustainable future</text>
+  
+  <!-- Right side - Graphics -->
+  <!-- Plate with food -->
+  <circle cx="650" cy="150" r="80" fill="white" opacity="0.1" stroke="white" stroke-width="2"/>
+  <circle cx="650" cy="150" r="60" fill="rgba(255,255,255,0.15)"/>
+  
+  <!-- Vegetables on plate -->
+  <rect x="620" y="120" width="15" height="30" fill="#ff6b6b" rx="2"/>
+  <rect x="640" y="115" width="15" height="35" fill="#51cf66" rx="2"/>
+  <rect x="660" y="125" width="15" height="25" fill="#ffd43b" rx="2"/>
+  <circle cx="650" cy="160" r="8" fill="#ff922b"/>
+  
+  <!-- Fork and Knife -->
+  <g opacity="0.3">
+    <rect x="580" y="280" width="4" height="100" fill="white"/>
+    <circle cx="580" cy="275" r="6" fill="white"/>
+    <polygon points="575,385 585,385 580,395" fill="white"/>
+    
+    <rect x="720" y="280" width="4" height="100" fill="white"/>
+    <circle cx="720" cy="275" r="6" fill="white"/>
+    <polygon points="715,385 725,385 720,395" fill="white"/>
+  </g>
+  
+  <!-- Decorative leaves -->
+  <ellipse cx="100" cy="400" rx="30" ry="15" fill="rgba(255,255,255,0.1)" transform="rotate(-45 100 400)"/>
+  <ellipse cx="700" cy="80" rx="40" ry="20" fill="rgba(255,255,255,0.1)" transform="rotate(30 700 80)"/>
+</svg>

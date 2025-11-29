@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="190" fill="rgba(102, 126, 234, 0.1)" stroke="#667eea" stroke-width="2"/>
+  
+  <!-- Earth icon -->
+  <circle cx="200" cy="150" r="70" fill="#51cf66" stroke="#2d8a2d" stroke-width="2"/>
+  <!-- Water on earth -->
+  <path d="M 150 150 Q 170 130 190 140 Q 200 135 210 145 Q 230 135 250 160" fill="#339af0" opacity="0.6"/>
+  
+  <!-- Impact rays -->
+  <g opacity="0.3">
+    <line x1="200" y1="50" x2="200" y2="20" stroke="#ff6b6b" stroke-width="3"/>
+    <line x1="200" y1="350" x2="200" y2="380" stroke="#ff6b6b" stroke-width="3"/>
+    <line x1="50" y1="200" x2="20" y2="200" stroke="#ff6b6b" stroke-width="3"/>
+    <line x1="350" y1="200" x2="380" y2="200" stroke="#ff6b6b" stroke-width="3"/>
+  </g>
+  
+  <!-- Impact indicators -->
+  <circle cx="150" cy="280" r="25" fill="#ff922b" opacity="0.5"/>
+  <text x="150" y="295" font-size="20" text-anchor="middle" opacity="0.8">🌱</text>
+  
+  <circle cx="250" cy="280" r="25" fill="#ff6b6b" opacity="0.5"/>
+  <text x="250" y="295" font-size="20" text-anchor="middle" opacity="0.8">💧</text>
+  
+  <!-- Bottom message -->
+  <text x="200" y="350" font-size="16" text-anchor="middle" fill="#667eea" font-weight="bold">Your Impact Matters</text>
+</svg>

@@ -1,0 +1,145 @@
+.footer {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0 2rem 1rem;
+  margin-top: 4rem;
+}
+
+.footer-banner {
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  padding: 2rem 0;
+}
+
+.footer-banner img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.footer-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.footer-section p {
+  line-height: 1.6;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+  opacity: 0.85;
+  font-size: 0.95rem;
+}
+
+.footer-section a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 2rem;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-bottom p {
+  margin: 0.5rem 0;
+  opacity: 0.85;
+  font-size: 0.9rem;
+}
+
+/* Modal styles for footer details */
+.fw-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+.fw-modal {
+  background: white;
+  color: #222;
+  max-width: 720px;
+  width: 94%;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  position: relative;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+}
+.fw-modal-close {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  background: transparent;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #555;
+}
+.fw-modal-body h3 { margin-top: 0; }
+.fw-modal-body ul { margin: 0.5rem 0 0 1.1rem; }
+
+.header-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+}
+.header-btn:hover { text-decoration: underline; }
+
+/* Finder styles */
+.finder { margin-top: 1rem; }
+.finder-note { font-size: 0.9rem; opacity: 0.9; margin-bottom: 0.5rem; }
+.finder-controls { display:flex; gap:0.5rem; align-items:center; margin-bottom:0.75rem; }
+.finder-controls input { flex:1; padding:0.5rem; border-radius:6px; border:1px solid rgba(255,255,255,0.15); }
+.finder-controls button { padding:0.5rem 0.75rem; border-radius:6px; border: none; cursor:pointer; }
+.finder-controls .secondary { background: rgba(255,255,255,0.15); color: white; }
+.finder-results { margin-top:0.5rem; max-height:300px; overflow:auto; }
+.finder-item { background: rgba(255,255,255,0.03); padding:0.6rem; border-radius:8px; margin-bottom:0.6rem; }
+.finder-item h5 { margin:0 0 0.25rem 0; color: #fff; }
+.finder-item .small { font-size:0.85rem; opacity:0.9; margin:0.15rem 0; }
+.tf-list ul { list-style: none; padding-left: 0; margin: 0.25rem 0 0.5rem 0; }
+.tf-list li { margin-bottom: 0.4rem; }
+.error { color: #ffdddd; }
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-section h4 {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="tipsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="400" fill="url(#tipsGrad)"/>
+  
+  <!-- Lightbulb (tips icon) -->
+  <circle cx="200" cy="120" r="45" fill="#ffd43b" stroke="#ffb100" stroke-width="2"/>
+  <path d="M 165 155 Q 165 175 180 180 L 220 180 Q 235 175 235 155" fill="#ffb100" stroke="none"/>
+  <rect x="185" y="180" width="30" height="15" fill="#ffb100"/>
+  <rect x="190" y="195" width="20" height="8" fill="#ffb100"/>
+  
+  <!-- Tips items around -->
+  <g opacity="0.4">
+    <!-- Food storage -->
+    <rect x="50" y="250" width="70" height="80" fill="#51cf66" rx="5"/>
+    <text x="85" y="300" font-size="24" text-anchor="middle">❄️</text>
+    
+    <!-- Shopping -->
+    <rect x="280" y="250" width="70" height="80" fill="#339af0" rx="5"/>
+    <text x="315" y="300" font-size="24" text-anchor="middle">🛒</text>
+    
+    <!-- Planning -->
+    <rect x="165" y="290" width="70" height="80" fill="#ff922b" rx="5"/>
+    <text x="200" y="340" font-size="24" text-anchor="middle">📋</text>
+  </g>
+  
+  <!-- Checkmarks -->
+  <circle cx="40" cy="60" r="20" fill="#51cf66" opacity="0.6"/>
+  <path d="M 30 65 L 40 75 L 55 50" stroke="white" stroke-width="2" fill="none"/>
+  
+  <circle cx="360" cy="80" r="20" fill="#51cf66" opacity="0.6"/>
+  <path d="M 350 85 L 360 95 L 375 70" stroke="white" stroke-width="2" fill="none"/>
+</svg>

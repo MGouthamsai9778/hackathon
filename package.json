@@ -1,0 +1,9 @@
+{
+  "name": "foodwaste-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd ./foodwaste && npm run dev",
+    "start": "npm run dev"
+  }
+}

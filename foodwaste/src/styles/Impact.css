@@ -1,0 +1,168 @@
+.impact {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.impact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.impact h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #667eea;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.impact-subtitle {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.action-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.action-btn {
+  background: white;
+  border: 2px solid #667eea;
+  color: #667eea;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.action-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+}
+
+.action-btn.active {
+  background: #667eea;
+  color: white;
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+.impact-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.impact-content h3 {
+  color: #667eea;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.impact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.impact-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  align-items: center;
+  border-left: 4px solid #667eea;
+}
+
+.impact-action,
+.impact-result {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.action-icon,
+.saved-icon {
+  font-size: 1.8rem;
+}
+
+.action-text,
+.saved-text {
+  margin: 0;
+  font-weight: 500;
+  color: #333;
+}
+
+.call-to-action {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.call-to-action h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.call-to-action p {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+  opacity: 0.95;
+}
+
+.pledges {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.pledge {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.pledge input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.pledge label {
+  cursor: pointer;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .impact h2 {
+    font-size: 1.8rem;
+  }
+
+  .action-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .impact-item {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
