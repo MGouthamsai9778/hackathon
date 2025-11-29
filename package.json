@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "cd ./foodwaste && npm run dev",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "build": "cd ./foodwaste && npm install && npm run build"
   }
 }
